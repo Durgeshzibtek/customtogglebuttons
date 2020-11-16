@@ -310,7 +310,7 @@ class CustomToggleButtons extends StatelessWidget {
             splashColor: splashColor,
             hoverColor: hoverColor,
             border: renderBorder ? _getBorder(index) : Border(),
-            //borderRadius: borderRadius,
+            borderRadius: borderRadius,
             elevation: elevation,
           );
         },
