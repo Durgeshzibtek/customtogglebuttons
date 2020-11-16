@@ -285,7 +285,7 @@ class CustomToggleButtons extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
 
-print("New codeeee");
+print("New codeeeessss");
     return Wrap(
       spacing: spacing,
       runSpacing: runSpacing,
@@ -454,7 +454,7 @@ class _CustomToggleButton extends StatelessWidget {
     return Container(
       decoration: BoxDecoration(
         border: border,
-	borderRadius: borderRadius,
+	borderRadius: BorderRadius.circular(10),
       ),
       child: RawMaterialButton(
         textStyle: TextStyle(
